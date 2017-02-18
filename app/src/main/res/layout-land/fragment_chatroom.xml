@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="33dp"
+        android:id="@+id/chatroom_recyclerView"  />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/footersection_msgtyping">
+
+     <LinearLayout
+         android:layout_weight="12"
+     android:layout_width="0dp"
+     android:layout_height="wrap_content">
+         <ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:src="@drawable/ic_action_emoticon"
+             android:layout_gravity="center"
+             android:id="@+id/emoticon"
+             android:layout_weight="3"/>
+         <EditText
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:layout_weight="7"
+             android:paddingLeft="3dp"
+             android:paddingRight="3dp"
+             android:scrollbars="vertical"
+             android:fadeScrollbars="false"
+             android:inputType="textMultiLine"
+             android:id="@+id/edittext_msgtyping"
+             android:hint="@string/type_a_message"
+             android:textColor="@color/black"
+             android:textColorHint="@color/gray"/>
+         <ImageButton
+             android:layout_width="wrap_content"
+             android:layout_height="match_parent"
+             android:src="@drawable/ic_action_camera"
+             android:id="@+id/camera"
+             android:background="@color/colorPrimary"
+             android:layout_gravity="center"
+             android:layout_weight="3"/>
+
+     </LinearLayout>
+
+     <LinearLayout
+         android:layout_weight="1"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content">
+         <ImageButton
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             android:background="@drawable/ic_action_microphone_settings"
+             android:id="@+id/walkietalkie"
+             android:layout_gravity="center"
+             />
+     </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>

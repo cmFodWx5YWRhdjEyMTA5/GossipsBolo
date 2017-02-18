@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/clearlog"
+        android:title="@string/clear_log"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/status"
+        android:title="@string/status"
+        android:orderInCategory="2"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+
+    <item
+        android:title="@string/audiovideocallsearch"
+        android:id="@+id/avsearch"
+        android:orderInCategory="4"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white_48dp"/>
+
+    <item
+        android:title="@string/audiovideocalllist"
+        android:id="@+id/avcalllist"
+        android:orderInCategory="5"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_phone_plus"/>
+
+
+
+</menu>

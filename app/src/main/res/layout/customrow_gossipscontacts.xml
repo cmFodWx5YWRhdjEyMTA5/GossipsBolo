@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v4.widget.CircleImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gossipscontacts_CircleImageView"
+        android:src="@drawable/ic_action_account_plus"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:id="@+id/gossipscontacts_contactname"
+        android:layout_toRightOf="@id/gossipscontacts_CircleImageView"
+        tools:text = "ramkumar"
+        android:textSize="20dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/gossipscontacts_status"
+        android:layout_toRightOf="@id/gossipscontacts_CircleImageView"
+        android:layout_below="@id/gossipscontacts_contactname"
+        tools:text ="Work Hard!!!"
+        android:textColor="@color/black"
+        android:textSize="16dp"/>
+
+
+</RelativeLayout>

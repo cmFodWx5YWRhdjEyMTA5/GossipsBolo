@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:id="@+id/rumourbundle_DrawerLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frameLayout">
+    </FrameLayout>
+
+     <!--ListView for DrawerLayout Lists-->
+<ListView
+    android:layout_width="240dp"
+    android:entries="@array/extraFeatures"
+    android:layout_height="match_parent"
+    android:id="@+id/rumourbundle_ListView"
+    android:background="@color/colorPrimary"
+    android:layout_gravity="left"
+    android:divider="@null">
+
+</ListView>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/toolbar_rumourbundle"/>
+        <android.support.design.widget.TabLayout
+        android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/swipeTabs"
+            app:tabGravity="fill"
+            app:tabTextColor="@color/white"
+            app:tabMode="fixed"
+            app:tabIndicatorColor="@color/white"
+            app:tabIndicatorHeight="3dp"
+            app:tabPadding="12dp">
+        </android.support.design.widget.TabLayout>
+
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/white"
+            android:id="@+id/pager"/>
+
+
+
+
+    </LinearLayout>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/newgroup"
+        android:title="@string/newgroup"
+        android:orderInCategory="1"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/newbroadcast"
+        android:title="@string/newbroadcast"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/starredmessages"
+        android:title="@string/starredmessage"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/status"
+        android:title="@string/status"
+        android:orderInCategory="4"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:orderInCategory="5"
+        app:showAsAction="never"/>
+    <item
+        android:title="@string/recentgossips_search"
+        android:id="@+id/rexscentGossipssearch"
+        android:orderInCategory="6"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white_48dp" />
+
+    <item
+        android:title="@string/select_chatter"
+        android:id="@+id/selectchatter"
+        android:orderInCategory="7"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_message_text"/>
+
+
+
+
+
+
+
+
+
+
+</menu>

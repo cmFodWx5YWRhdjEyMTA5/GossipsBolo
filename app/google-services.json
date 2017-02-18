@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "319487927917",
+    "firebase_url": "https://gossipsbolo-67d8b.firebaseio.com",
+    "project_id": "gossipsbolo-67d8b",
+    "storage_bucket": "gossipsbolo-67d8b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:319487927917:android:f0184ddd8945e8a2",
+        "android_client_info": {
+          "package_name": "com.example.yogi.gossipsbolo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "319487927917-nhfi4vaoicciu083lrfnh9f69vjno1dn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCAj4StyBfj7SHdpNSqavF2Zydw79gTRc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

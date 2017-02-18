@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/refresh"
+        android:title="@string/refresh"
+        android:orderInCategory="1"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/status"
+        android:title="@string/status"
+        android:orderInCategory="2"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings"
+        android:title="@string/settings"
+        android:orderInCategory="3"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="@string/chattercontact_search"
+        android:id="@+id/chattercontacts_search"
+        android:orderInCategory="4"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white_48dp"/>
+
+
+
+    <item
+        android:title="@string/add_chattercontacts"
+        android:id="@+id/addcontact"
+        android:orderInCategory="5"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_action_account_plus"  />
+
+</menu>
